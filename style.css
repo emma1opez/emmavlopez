@@ -4,7 +4,7 @@
     margin-right: 0px;
     margin-left: 0px;
     color: #000000;
-    font-family: "Verdana", sans-serif;
+    font-family: "Didot", "Verdana", sans-serif;
     box-sizing: border-box;
   }
   
@@ -25,22 +25,27 @@
     }
   }
   
-  .highlight-blue{
-    background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #ABC1FB 65%);
+  .highlight-green {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #DCE4CF 50%);
   }
   
   .highlight-white {
-    background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #ffffff 65%);
+    background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #ffffff 50%);
+  }
+  
+  .highlight-green-thin {
+    background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #DCE4CF 80%);
   }
   
   .highlight-white-thin {
     background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #ffffff 80%);
   }
   
-  .highlight-blue-thin {
-    background: linear-gradient(180deg,rgba(255,255,255, 0) 80%, #ABC1FB 80%);
+  .green-green-background {
+    background: linear-gradient(to right, #DCE4CF 50%, #265037 50%);
+    display: flex;
+    flex-direction: column;
   }
-  
   .space {
     margin-right: 10px;
     margin-left: 10px;
@@ -50,21 +55,50 @@
     text-decoration: none;
   }
   
+  .name-container {
+    display: inline-block;
+  }
+
+  .name-background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .name {
     font-size: 500%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 35px;
-    text-align: center;
+    letter-spacing: 10px;
     font-weight: bold;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      typing 2s steps(20),
+      cursor .5s step-end infinite alternate;
+  }
 
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
-    margin-bottom: 35px;
-    max-width: 50%;
-    max-height: 50%; */
+  @keyframes cursor {
+    50% { 
+      border-color: transparent 
+    }
+  }
+
+  @keyframes typing {
+    from { 
+      width: 0 
+    }
+  }
+
+  .name-icon {
+    width: 1.5em;
+    display: inline;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: -10px;
   }
 
   .header {
@@ -100,7 +134,7 @@
   }
   
   .social-media-icon {
-    margin: 0 10px;
+    margin: 0 1em;
   } 
   
   .copyright {
@@ -114,8 +148,8 @@
     text-align: center;
   }
   
-  .blue-background {
-    background: #ABC1FB;
+  .green-background {
+    background: #DCE4CF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,8 +181,18 @@
     font-size: 115%;
     font-style: italic;
     text-align: center;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2.5s ease forwards;
   }
   
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   .proj-title {
     font-size: 150%;
   }
@@ -162,7 +206,7 @@
   }
   
   .icon {
-    width: 18px;
+    width: 2em;
     display: inline;
     position: relative;
     top: 0.75em;
@@ -179,12 +223,12 @@
   }
 
   footer a {
-    margin-right: 10px;  
+    margin-right: 15px;  
     margin-top: 30px;
   }
   
   footer img {
-    width: 40px; 
+    width: 50px; 
     margin-bottom: -10;
   }
 
@@ -194,4 +238,13 @@
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .email {
+    width: 15px;
+    display: inline;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: -3px;
+    margin-right: 5px;
   }
