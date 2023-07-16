@@ -93,10 +93,10 @@
   }
 
   .name-icon {
-    width: 1.5em;
+    width: 1em;
     display: inline;
     position: relative;
-    margin-right: 10px;
+    margin-left: 15px;
     margin-top: 0px;
     margin-bottom: -10px;
   }
