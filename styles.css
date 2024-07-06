@@ -1,8 +1,6 @@
 * {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 0;
+  padding: 0;
   color: #000000;
   font-family: "Georgia", "Times", 'Times New Roman', serif;
   box-sizing: border-box;
@@ -24,10 +22,11 @@ html {
 /* thank you w3schools for the nav bar <333 */
 
 .nav-bar {
-  padding-top: 10px;
+  padding-top: 0;
   padding-left: 50px;
   padding-bottom: 150px;
-  position: sticky; top: 0;
+  position: sticky; 
+  top: 0;
 }
 
 li {
@@ -108,7 +107,6 @@ span {
   margin-bottom: 0;  
   vertical-align: top; 
   margin-right: -65px;
-  /* line-height: 1.5; */
 }
 
 .p1 a:hover {
