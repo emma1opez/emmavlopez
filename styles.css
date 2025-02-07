@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #FC0318;
+  color: #d0300d;
   text-underline-offset: 0.2em;
   text-decoration: underline;
 }
@@ -30,13 +30,8 @@ a {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-  color: #333;
+  color: #000;
 }
-
-
-
-
-
 
     /* Navbar Styles */
     .navbar {
@@ -53,20 +48,12 @@ a {
       font-size: 17px;
     }
     
-    /* .navbar a:hover {
-      background-color: #ddd;
-      color: black;
-    } */
-    
     .navbar a.right {
       float: right;
     }
     
     /* Responsive Styles */
     @media screen and (max-width: 600px) {
-      /* .navbar a:not(:first-child) {
-        display: none;
-      } */
       .navbar a.right {
         display: block;
         float: none;
