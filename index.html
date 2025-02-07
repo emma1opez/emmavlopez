@@ -1,58 +1,56 @@
-<!DOCTYPE html />
-
-<html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-        <title>Emma Lopez</title>
-    </head>
-</head>
-
-<!-- Navigation -->
-<nav class="nav-bar">
-    <ul>
-        <li><a href="./index.html"><img src="img/emmalopez-logo.png" class="logo"></a></li>
-        <li style="float: right"><a class="nav-link" href="./about.html" style="text-decoration: none"><p><s>about</s></p></a></li>
-        <li style="float: right"><a class="nav-link" href="./index.html" style="text-decoration: none"><p>projects</p></a></li>
-    </ul>
-</nav>
-<br><br><br><br><br><br>
-
-<!-- Bio -->
-<div class="name">
-    <p class="hello"><span class="auto-type"></span></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta name="author" content="Emma López">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed(".auto-type",{
-            strings : ["¡Hola Mundo!", "Hello World!"],
-            typeSpeed : 100,
-            backSpeed : 100,
-            loop : true,
-        })
-    </script>
-    <p class="intro">I'm Emma. A Mexican-American high school <s>junior</s> senior living in the suburbs of Chicago.</p>
-</div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="img/strawberry.png" type="image/png" />
+    <title>Emma López</title>
+  </head>
 
-<!-- Projects -->
-<div id="projects" style="padding-right: 300px;">
-    <h1 class="karla sec-title" style="font-weight: 800">📁 current + past projects</h1>
-        <p class="org-title proj-item p1"><a href="https://github.com/emma1opez" style="text-decoration: none;">Github</a></p>
-        <p class="org-title proj-item p2"><a href="" style="text-decoration: none;">Codifica + Code</a></p>
-        <p class="org-title proj-item p3"><a href="https://girlcon.org" style="text-decoration: none;">GirlCon</a></p>
-        <p class="org-title proj-item p4"><a href="https://ifeminist.org" style="text-decoration: none;">iFeminist</a></p>
-        <p class="org-title proj-item p5"><a href="https://open.spotify.com/show/4XHecbcWso5rZmkl7Cuqnl?si=520d2671692a4ea4" style="text-decoration: none;">She Speaks HerStory</a></p>
-        <p class="org-title proj-item p6"><a href="" style="text-decoration: none;">Chicago Alianza Migrante</a></p>
-        <p class="org-title proj-item p7"><a href="https://medium.com/columbia-journal-of-science-tech-ethics-and-policy/project-sustainability-on-the-blockchain-assessing-the-environmental-impact-of-nfts-1504710ef545" style="text-decoration: none;">Columbia Journal of Science, Tech, Ethics, and Policy</a></p>
-        <p class="org-title proj-item p8"><a href="img/ai-research.pdf" style="text-decoration: none;">Inspirit AI</a></p>
-</div> 
+  <div class="navbar" id="myNavbar">
+    <a href="recognition.html"><s>recognition</s></a>
+    <a href="previously.html"><s>previously</s></a>
+    <a href="currently.html"><s>currently</s></a>
+    <a href="index.html">about</a>
+  </div>
 
-<!-- Footer -->
-<!-- <footer>
-    <a href="https://www.instagram.com/emma1opez/"><img src="img/insta.svg"></a>
-</footer> -->
+  <body>
+    <main class="main">
+      <section id="about">
+        <span class="">
+            <h2><span class="auto-type"></span></h2>
+            <!-- <h2>¡Hola Mundo! I'm Emma.</h2> -->
+        </span>
+        <p style="margin-bottom: 0;">
+            I'm a Mexican-American girl from the suburbs of Chicago, IL. I'm a <s>junior</s> senior at Riverside Brookfield High School. And, I'm an incoming freshman @<a href="https://www.stanford.edu">Stanford</a> studying CS & SymSys. 
+          <br><br> 
 
-</body>
+          I'm passionate about the intersection of technology and equality. I'm interested in all things data science, AL/ML, human-computer interaction, and cybersecurity.
+        </p>
+        
+        <p style="margin: 0; padding-top: 10px;"> 
+          <a
+            href="mailto:emmalopez1308@gmail"
+            target="_blank"
+            ><img src="img/gmail.svg" style="width: 5%"></a> 
+          <a
+            href="https://www.instagram.com/emma1opez/"
+            target="_blank"
+            ><img src="img/instagram.svg" style="width: 5%"></a>
+          <a
+            href="https://www.linkedin.com/in/emmavialopez/"
+            target="_blank"
+            ><img src="img/linkedin.svg" style="width: 5%"></a>
+        </p>
+        <p style="text-align: center;">
+            Copyright © 2025 Emma López. All rights reserved.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
