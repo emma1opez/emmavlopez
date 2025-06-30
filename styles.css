@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
   margin: 20px;
+  cursor: url("img/ladybug.png"), auto;
 }
 
 .header {
@@ -52,7 +53,6 @@ a {
   float: right;
 }
     
-/* Responsive Styles */
 @media screen and (max-width: 600px) {
   .navbar a.right {
    display: block;
@@ -60,4 +60,3 @@ a {
    text-align: right;
   }
 }
-
