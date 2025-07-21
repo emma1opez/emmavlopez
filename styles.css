@@ -1,8 +1,12 @@
+html
+{
+  cursor: url("img/ladybug.png") 4 4, auto;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5em;
   margin: 20px;
-  cursor: url("img/ladybug.png"), auto;
 }
 
 .header {
@@ -10,6 +14,7 @@ body {
   line-height: 2em;
   flex-direction: row;
   align-items: center;
+  cursor: url("img/ladybug.png") 4 4, auto;
 }
 
 .main {
@@ -34,9 +39,9 @@ a {
   color: #000;
 }
 
-/* Navbar Styles */
 .navbar {
   overflow: hidden;
+  cursor: url("img/ladybug.png") 4 4, auto;
 }
     
 .navbar a {
