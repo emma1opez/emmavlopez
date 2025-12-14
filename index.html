@@ -12,15 +12,35 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js" defer></script>
-    <link rel="icon" href="img/blueberry.png">    
+    <link rel="icon" href="img/command.png">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script src="script.js" defer></script>
     <title>Emma López</title>
   </head>
 
   <div class="navbar" id="myNavbar">
-    <a href="recognition.html"><s>recognition</s></a>
-    <a href="projects.html"><s>projects</s></a>
+    <a>
+      <div style="margin-top: -12.5px" 
+      class="time-zone" 
+      data-timezone="America/Los_Angeles">
+        <p>SF 
+        <output>00:00:00</output>
+        PST</p>
+      </div>
+      <div class="time-zone" data-timezone="America/Chicago">
+        <p>CHI
+        <output>00:00:00</output>
+        CST</p>
+      </div>
+    </a>
+    <a href=".html"><s>recognition</s></a>
+    <a href=".html"><s>projects</s></a>
     <a href="index.html">about</a>
-    <img style="width: 45px" src="img/blueberry.png">
+    <img style="width: 45px" src="img/command.png">
   </div>
 
   <body>
@@ -30,12 +50,16 @@
             <h2><span class="auto-type"></span></h2>
         </span>
         <p style="margin-bottom: 0;">
-          I'm a Mexican-American girl from the suburbs of Chicago, IL. I'm a <s>senior</s> graduate from Riverside Brookfield High School. And, I'm an incoming freshman @<a href="https://www.stanford.edu">Stanford</a> studying CS + Design. 
+          I'm a Mexican-American girl from the suburbs of Chicago, IL. 
+          <br>
+          I'm a <s>incoming</s> freshman @<a href="https://www.stanford.edu">Stanford</a> studying CS. 
           <br><br> 
-
-          I'm passionate about the intersection of technology and diversity. I'm interested in all things human-computer interaction, AL/ML, and UI/UX. 
+          I'm passionate about the intersection of technology, education,
+          <br>
+          empowerment, & diversity. 
+          <br>
+          I'm interested in all things HCI, AL/ML, and UI/UX. 
           <br><br>
-
           Reach out to me <a href="mailto:emlo@stanford.edu">emlo [at] stanford [dot] edu</a>.
           <br><br>
 
@@ -52,31 +76,74 @@
           <a
             href="mailto:emlo@stanford.edu"
             target="_blank"
-            ><img src="img/gmail.svg" style="width: 35px"></a> 
+            ><img src="img/mail.png" style="width: 25px"></a> 
           <a
             href="https://www.instagram.com/emma1opez/"
             target="_blank"
-            ><img src="img/instagram.svg" style="width: 35px"></a>
+            ><img src="img/insta.png" style="width: 25px"></a>
+            <a
+            href="https://www.instagram.com/emma1opez/"
+            target="_blank"
+            ><img src="img/x.png" style="width: 25px"></a>
           <a
             href="https://www.linkedin.com/in/emmavialopez/"
             target="_blank"
-            ><img src="img/linkedin.svg" style="width: 35px"></a>
+            ><img src="img/linkedin.png" style="width: 25px"></a>
           <a
             href="https://www.depop.com/emma1opez/"
             target="_blank"
-            ><img src="img/depop.svg" style="width: 35px"></a>
+            ><img src="img/depop.png" style="width: 25px"></a>
           <a
             href="https://github.com/emma1opez"
             target="_blank"
-            ><img src="img/github.svg" style="width: 35px"></a>
-        </p>
-        <p style="text-align: center;">
-            Made with ❤︎
-            <br>
-
-            Copyright © 2025 Emma López. All rights reserved.
+            ><img src="img/github.png" style="width: 25px"></a>
         </p>
       </section>
     </main>
+      <section id="gallery">
+        <div class="gallery-container">
+          <div class="gallery-card">
+            <img src="img/flower.png">
+            <p>Flowers</p>
+          </div>
+          <div class="gallery-card">
+            <img src="img/girlcon.png">
+            <p>GirlCon</p>
+          </div>
+          <div class="gallery-card">
+            <img src="img/machu.png">
+            <p>Machu Picchu</p>
+          </div>
+          <div class="gallery-card">
+            <img src="img/matcha.png">
+            <p>Matcha</p>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery-card">
+            <img src="img/peru.png">
+            <p>Peru</p>
+          </div>
+          <div class="gallery-card">
+            <img src="img/stanford.png">
+            <p>Stanford</p>
+          </div>
+          <div class="gallery-card">
+            <img src="img/treehacks.png">
+            <p>TreeHacks</p>
+          </div>
+          <div class="gallery-card">
+            <img src="img/trevi.png">
+            <p>Trevi</p>
+          </div>
+        </div>
+      </section>
+    <footer>
+      <p style="text-align: center; color: #A9A9A9; margin-top: 50px;">
+          Made with ❤︎
+          <br>
+          Copyright &copy 2025 Emma López. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>

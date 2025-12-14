@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans Mono', sans-serif;
   line-height: 1.5em;
   padding: 20px;
 }
@@ -11,21 +11,29 @@ body {
   align-items: center;
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 125px;
+  padding-bottom: 160px;
   max-width: 720px;
 }
 
 span {
-  color: #2A52BE;
+  font-family: 'inter';
 }
 
 a {
-  color: #2A52BE;
+  color: #A9A9A9;
   text-underline-offset: 0.2em;
   text-decoration: none;
 }
@@ -45,15 +53,28 @@ a {
 .navbar a {
   float: right;
   display: block;
-  color: black;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: black;
+}
+
+.navbar a s {
+  color: #A9A9A9;;
   font-size: 17px;
 }
     
 .navbar a.right {
   float: right;
+  font-size: 12px;
+}
+
+.time-zone {
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.time-zone p {
+  margin-bottom: -5px;
 }
     
 @media screen and (max-width: 600px) {
@@ -62,4 +83,31 @@ a {
    float: none;
    text-align: right;
   }
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 15px;
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  font-family: 'inter';
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-15px);
+}
+
+.gallery-card img {
+  width: 250px;
+  object-fit: cover;
 }
