@@ -59,7 +59,7 @@ a {
 }
 
 .navbar a {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .navbar a s {
@@ -68,11 +68,11 @@ a {
     
 .navbar a.right {
   float: right;
-  font-size: 14px;
+  font-size: 12x;
 }
 
 .time-zone {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: -20px;
 }
 
