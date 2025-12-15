@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
     new Typed(".auto-type", {
-        strings: ["¡Hola Mundo! I'm Emma. "],
-        typeSpeed: 100,
+        strings: [
+            "¡Hola Mundo! Soy Emma.",
+            "Hello World! I'm Emma."
+        ],
+        typeSpeed: 100, 
         backSpeed: 50,
+        backDelay: 1000,
+        smartBackspace: true,
         loop: true
     });
 });

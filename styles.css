@@ -58,14 +58,17 @@ a {
   color: black;
 }
 
+.navbar a {
+  font-size: 14px;
+}
+
 .navbar a s {
   color: #A9A9A9;;
-  font-size: 17px;
 }
     
 .navbar a.right {
   float: right;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .time-zone {
