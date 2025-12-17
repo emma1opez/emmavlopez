@@ -3,20 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <meta name="author" content="Emma López">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emma López">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="styles.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js" defer></script>
-    <link rel="icon" href="img/blueberry.png">    
+    <link rel="icon" href="img/command.png">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+    <script src="script.js" defer></script>
     <title>Emma López</title>
   </head>
 
   <div class="navbar" id="myNavbar">
+    <a>
+      <div style="margin-top: -12.5px" 
+      class="time-zone" 
+      data-timezone="America/Los_Angeles">
+        <p>SF 
+        <output>00:00:00</output>
+        PST</p>
+      </div>
+      <div class="time-zone" data-timezone="America/Chicago">
+        <p>CHI
+        <output>00:00:00</output>
+        CST</p>
+      </div>
+    </a>
     <a href="recognition.html"><s>recognition</s></a>
     <a href="projects.html">projects</a>
     <a href="index.html"><s>about</s></a>
-    <img style="width: 45px" src="img/blueberry.png">
+    <img style="width: 45px" src="img/command.png">
   </div>
 
   <body>
@@ -106,6 +126,13 @@
           </ul>
         </p>
         </section>
-    </main>
+        <footer>
+          <p style="text-align: center; color: #A9A9A9; margin-top: 50px;">
+              Made with ❤︎
+              <br>
+              Copyright &copy 2025 Emma López. All rights reserved.
+          </p>
+        </footer>
+      </main>
   </body>
 </html>
